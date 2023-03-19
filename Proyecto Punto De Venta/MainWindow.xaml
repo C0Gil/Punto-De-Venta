@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Punto_De_Venta"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Punto de Venta" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#fffffe">
+        <!--Agregar Elementos-->
     </Grid>
 </Window>
