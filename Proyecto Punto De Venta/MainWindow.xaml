@@ -7,7 +7,21 @@
         mc:Ignorable="d"
         Title="Punto de Venta" Height="720" Width="1280"
         WindowStartupLocation="CenterScreen">
-    <Grid Background="#fffffe">
+    <Grid Background="#c8c8c8">
         <!--Agregar Elementos-->
+        <Button Content="Registrar" FontSize="20" FontFamily="Times New Roman" HorizontalAlignment="Left" Height="36" Margin="1083,316,0,0" VerticalAlignment="Top" Width="148"/>
+        <Button Content="Modificar" FontSize="20" FontFamily="Times New Roman" HorizontalAlignment="Left" Height="36" Margin="1083,383,0,0" VerticalAlignment="Top" Width="148"/>
+        <Button Content="Eliminar" FontSize="20" FontFamily="Times New Roman" HorizontalAlignment="Left" Height="36" Margin="1083,455,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Username" FontSize="30" FontFamily="Times New Roman" HorizontalAlignment="Left" Margin="168,32,0,0" VerticalAlignment="Top" Height="49" Width="206"/>
+        <Label Content="Rol" FontSize="30" FontFamily="Times New Roman" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" Height="49" Width="153"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="34,129,252,191"/>
+        <Label Content="Total: " FontSize="25" FontFamily="Times New Roman" HorizontalAlignment="Left" Margin="34,539,0,0" VerticalAlignment="Top" Height="39" Width="137"/>
+        <Button Content="Generar Reporte" FontSize="20" FontFamily="Times New Roman" HorizontalAlignment="Left" Height="36" Margin="880,522,0,0" VerticalAlignment="Top" Width="148"/>
+        <Rectangle HorizontalAlignment="Left" Height="52" Margin="937,10,0,0"  VerticalAlignment="Top" Width="153" Fill="#bababa"/>
+        <Label Content="00/00/00" FontSize="25" HorizontalAlignment="Left" Margin="959,16,0,0" VerticalAlignment="Top" Height="40" Width="124"/>
+        <Rectangle HorizontalAlignment="Left" Height="52" Margin="1104,10,0,0"  VerticalAlignment="Top" Width="153" Fill="#bababa"/>
+        <Label Content="00:00:00" FontSize="25" HorizontalAlignment="Left" Margin="1131,16,0,0" VerticalAlignment="Top" Height="40" Width="114"/>
+        <Button Content="Buscar" FontSize="20" FontFamily="Times New Roman" HorizontalAlignment="Left" Height="36" Margin="1083,244,0,0" VerticalAlignment="Top" Width="148"/>
+
     </Grid>
 </Window>
