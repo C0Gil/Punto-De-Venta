@@ -24,5 +24,6 @@ namespace Proyecto_Punto_De_Venta
         {
             InitializeComponent();
         }
+
     }
 }
