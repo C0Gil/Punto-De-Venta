@@ -10,27 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Proyecto_Punto_De_Venta.Vista;
 
-namespace Proyecto_Punto_De_Venta
+namespace Proyecto_Punto_De_Venta.Vista
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para Productos.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Productos : Window
     {
-        public MainWindow()
+        public Productos()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Productos inventario = new Productos();
-            this.Close();
-            inventario.Show();
+
         }
     }
 }
